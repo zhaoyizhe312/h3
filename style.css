@@ -1,16 +1,19 @@
  a{text-decoration:none;}
  .main{
-	margin: 0 auto; 
-	width:50%;
-	height: auto;
-	background-color:#000000;
+    margin: 0 auto; 
+    width:50%;
+    height: auto;
+    background-color:#000000;
  }
  .top{
     /* 设置宽度高度背景颜色 */
     height: auto; /*高度改为自动高度*/
-    width:100%;
+    width:50%;
     margin-left: 0;
     background-color: #FFFFFF;
+    position: fixed; /*固定在顶部*/
+    top: 0;/*离顶部的距离为0*/
+    margin-bottom: 5px;
 }
 .top ul{
     /* 清除ul标签的默认样式 */
@@ -33,8 +36,9 @@
 
 }
 #HOME{
-	margin-left: 200px;
+    margin-left: 200px;
 }
 #coffee2{
-	width:100%;
+    width:100%;
 }
+
